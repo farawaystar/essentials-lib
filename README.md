@@ -1,14 +1,14 @@
 # Essential coding tools library
-
-01. File Concatenator
+---
+## 01. File Concatenator
 
 A simple bash script that combines multiple files of specified types into a single text file with clear file demarcations.
 
-## Description
+### Description
 
 This script scans your project directory for files with specific extensions, concatenates them into a single output file, and adds helpful headers to identify each file's content. It respects your `.gitignore` settings by using `git ls-files` to find files, making it ideal for code documentation and review.
 
-## Features
+### Features
 
 - Combines files with specified extensions (default: json, toml, rs, sh)
 - Adds descriptive headers for each file section
@@ -16,13 +16,13 @@ This script scans your project directory for files with specific extensions, con
 - Respects `.gitignore` patterns
 - Allows specific files to be excluded from concatenation
 
-## Requirements
+### Requirements
 
 - Bash shell
 - Git (the repository must be initialized with git)
 
 
-## Usage
+### Usage
 
 1. Make the script executable:
    ```
@@ -44,7 +44,7 @@ You can modify these variables at the top of the script to customize behavior:
 - `top_directory`: Starting directory for file search (default: current directory)
 - `ignore_files`: Array of filenames to exclude from concatenation
 
-## Example Output
+### Example Output
 
 The combined file will have sections like:
 
@@ -63,7 +63,7 @@ Current date: Monday, March 17, 2025, 05:12 AM CET
 
 # Content of config.toml file here...
 ```
-
+---
 ## License
 
 This script is provided under the MIT License. Feel free to modify and distribute as needed.
