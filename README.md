@@ -25,9 +25,9 @@ This script scans your project directory for files with specific extensions, con
 ### Usage
 
 1. Make the script executable:
-   ```
-   chmod +x concat_files.sh
-   ```
+```
+chmod +x concat_files.sh
+```
 
 2. Run the script from your project directory:
 
